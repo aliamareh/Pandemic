@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pandemic/Pandemic.iml" filepath="$PROJECT_DIR$/Pandemic/Pandemic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PandemicJavaFX/PandemicJavaFX.iml" filepath="$PROJECT_DIR$/PandemicJavaFX/PandemicJavaFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PandemicWS/PandemicWS.iml" filepath="$PROJECT_DIR$/PandemicWS/PandemicWS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/projet-pandemic-7.iml" filepath="$PROJECT_DIR$/.idea/projet-pandemic-7.iml" />
+    </modules>
+  </component>
+</project>

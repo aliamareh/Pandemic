@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox fx:id="mainVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PandemicJavaFX.vues.VueActionRoleRepartiteur">
+   <children>
+      <Label prefHeight="60.0" prefWidth="600.0" text="Action Rôle : Repartiteur">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea prefHeight="56.0" prefWidth="600.0" text="L'action 1 permet de déplacer n'importe quel joueur vers la ville qu'on veut.&#10;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <ToolBar prefHeight="28.0" prefWidth="600.0">
+         <items>
+            <ComboBox prefHeight="26.0" prefWidth="189.0" promptText="Choisir le joueur à déplacer" />
+            <ComboBox prefHeight="26.0" prefWidth="250.0" promptText="Choisir la ville vers laquelle on déplace" />
+            <Button mnemonicParsing="false" text="Confirmer l'action 1" />
+         </items>
+      </ToolBar>
+      <Region prefHeight="0.0" prefWidth="600.0" />
+      <TextArea prefHeight="60.0" prefWidth="600.0" text="L'action 2 permet de déplacer n'importe quel joueur vers la ville d'un autre joueur.&#10;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <ToolBar prefHeight="28.0" prefWidth="600.0">
+         <items>
+            <ComboBox prefHeight="26.0" prefWidth="187.0" promptText="Choisir le joueur à déplacer" />
+            <ComboBox prefHeight="26.0" prefWidth="264.0" promptText="Choisir le joueur vers lequelle on déplace" />
+            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" text="Confirmer l'action 2" />
+         </items>
+      </ToolBar>
+      <Region prefHeight="80.0" prefWidth="600.0" />
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+         <items>
+            <Region prefHeight="28.0" prefWidth="511.0" />
+            <Button mnemonicParsing="false" text="Retour" />
+         </items>
+      </ToolBar>
+   </children>
+</VBox>

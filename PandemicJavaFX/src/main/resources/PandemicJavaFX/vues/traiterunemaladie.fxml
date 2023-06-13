@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="mainVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="248.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PandemicJavaFX.vues.VueTraiterUneMaladie">
+   <children>
+      <Label prefHeight="60.0" prefWidth="600.0" text="Action: Traiter une maladie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Region prefHeight="0.0" prefWidth="600.0" />
+      <TextArea prefHeight="58.0" prefWidth="600.0" text="Cette action permet au joueur de retirer un cube si la maladie &#10;n'as pas encore été traitée ou alors tous les cubes d'une maladie traité.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <ComboBox prefHeight="26.0" prefWidth="175.0" promptText="Choisir maladie à traiter " />
+      <Region prefHeight="81.0" prefWidth="600.0" />
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button mnemonicParsing="false" text="Confirmer l'action" />
+            <Region prefHeight="30.0" prefWidth="400.0" />
+            <Button mnemonicParsing="false" text="Retour" />
+        </items>
+      </ToolBar>
+   </children>
+</VBox>

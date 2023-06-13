@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "maladie:1",
+    "couleur": "Bleue"
+  },
+  {
+    "_id": "maladie:2",
+    "couleur": "Jaune"
+  },
+  {
+    "_id": "maladie:3",
+    "couleur": "Rouge"
+  },
+  {
+    "_id": "maladie:4",
+    "couleur": "Noire"
+  }
+]

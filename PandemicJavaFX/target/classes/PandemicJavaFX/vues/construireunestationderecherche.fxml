@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="mainVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PandemicJavaFX.vues.VueConstruireUneStationDeRecherche">
+   <children>
+      <Label prefHeight="60.0" prefWidth="600.0" text="Action: Construire une station de recherche                            ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label prefHeight="30.0" prefWidth="600.0" text="Nombre de station de recherche existantes: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Region prefHeight="0.0" prefWidth="600.0" />
+      <TextArea prefHeight="114.0" prefWidth="600.0" text="Si le nombre de stations de recherche déja existantes est inférieur à 6, &#10;choissisez l'action 1 pour la construire dans la ville du joueur en défaussant une carte ville de &#10;cette ville.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Region prefHeight="0.0" prefWidth="600.0" />
+      <ComboBox prefHeight="26.0" prefWidth="161.0" promptText="Choisir une carte ville" />
+      <TextArea prefHeight="110.0" prefWidth="600.0" text="Si le nombre de stations de recherche déja existantes est égale à 6, choissisez une ville &#10;dont on enlèvera une station de recherche, pour en construire une là où &#10;le joueur est situé avec l'action 2.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <ComboBox prefWidth="150.0" promptText="Choisir une ville" />
+      <Region prefHeight="80.0" prefWidth="600.0" />
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button mnemonicParsing="false" text="Confirmer l'action 1" />
+            <Button mnemonicParsing="false" text="Confirmer l'action 2" />
+            <Region prefHeight="30.0" prefWidth="264.0" />
+            <Button mnemonicParsing="false" text="Retour" />
+        </items>
+      </ToolBar>
+   </children>
+</VBox>

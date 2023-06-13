@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="mainVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="259.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PandemicJavaFX.vues.VuesVoitureOuTransbordeur">
+   <children>
+      <Label prefHeight="60.0" prefWidth="600.0" text="Action: Voiture ou Transbordeur">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Region prefHeight="0.0" prefWidth="600.0" />
+      <TextArea prefHeight="73.0" prefWidth="600.0" text="Cette action permer de se déplacer à une ville de destination voisine si elle est relié à la ville &#10;où est localisé le joueur.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <ComboBox prefHeight="26.0" prefWidth="263.0" promptText="Choisir une ville de destination voisine" />
+      <Region prefHeight="80.0" prefWidth="600.0" />
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button mnemonicParsing="false" text="Confirlmer l'action" />
+            <Region prefHeight="30.0" prefWidth="395.0" />
+            <Button mnemonicParsing="false" text="Retour" />
+        </items>
+      </ToolBar>
+   </children>
+</VBox>

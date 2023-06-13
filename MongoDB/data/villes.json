@@ -1,0 +1,774 @@
+[
+  {
+    "_id": "ville:1",
+    "nom": "Atlanta",
+    "population": 475000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:2"
+      },
+      {
+        "_id": "ville:12"
+      },
+      {
+        "_id": "ville:22"
+      }
+    ]
+  },
+  {
+    "_id": "ville:2",
+    "nom": "Chicago",
+    "population": 9121000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:10"
+      },
+      {
+        "_id": "ville:1"
+      },
+      {
+        "_id": "ville:7"
+      },
+      {
+        "_id": "ville:20"
+      },
+      {
+        "_id": "ville:21"
+      }
+    ]
+  },
+  {
+    "_id": "ville:3",
+    "nom": "Essen",
+    "population": 575000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:4"
+      },
+      {
+        "_id": "ville:8"
+      },
+      {
+        "_id": "ville:6"
+      },
+      {
+        "_id": "ville:9"
+      }
+    ]
+  },
+  {
+    "_id": "ville:4",
+    "nom": "Londres",
+    "population": 8586000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:11"
+      },
+      {
+        "_id": "ville:8"
+      },
+      {
+        "_id": "ville:5"
+      },
+      {
+        "_id": "ville:3"
+      }
+    ]
+  },
+  {
+    "_id": "ville:5",
+    "nom": "Madrid",
+    "population": 5427000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:4"
+      },
+      {
+        "_id": "ville:8"
+      },
+      {
+        "_id": "ville:11"
+      },
+      {
+        "_id": "ville:25"
+      },
+      {
+        "_id": "ville:24"
+      }
+    ]
+  },
+  {
+    "_id": "ville:6",
+    "nom": "Milan",
+    "population": 5232000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:3"
+      },
+      {
+        "_id": "ville:8"
+      },
+      {
+        "_id": "ville:30"
+      }
+    ]
+  },
+  {
+    "_id": "ville:7",
+    "nom": "Montreal",
+    "population": 3429000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:11"
+      },
+      {
+        "_id": "ville:12"
+      },
+      {
+        "_id": "ville:2"
+      }
+    ]
+  },
+  {
+    "_id": "ville:8",
+    "nom": "Paris",
+    "population": 10755000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:5"
+      },
+      {
+        "_id": "ville:25"
+      },
+      {
+        "_id": "ville:6"
+      },
+      {
+        "_id": "ville:3"
+      },
+      {
+        "_id": "ville:4"
+      }
+    ]
+  },
+
+  {
+    "_id": "ville:9",
+    "nom": "Saint-Pétersbourg",
+    "population": 4879000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:33"
+      },
+      {
+        "_id": "ville:30"
+      },
+      {
+        "_id": "ville:3"
+      }
+    ]
+  },
+  {
+    "_id": "ville:10",
+    "nom": "San Francisco",
+    "population": 5864000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:2"
+      },
+      {
+        "_id": "ville:20"
+      },
+      {
+        "_id": "ville:48"
+      },
+      {
+        "_id": "ville:41"
+      }
+    ]
+  },
+  {
+    "_id": "ville:11",
+    "nom": "New-York",
+    "population": 20464000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:4"
+      },
+      {
+        "_id": "ville:5"
+      },
+      {
+        "_id": "ville:12"
+      },
+      {
+        "_id": "ville:7"
+      }
+    ]
+  },
+  {
+    "_id": "ville:12",
+    "nom": "Washington",
+    "population": 4679000,
+    "maladieParDefaut": {
+      "_id": "maladie:1"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:11"
+      },
+      {
+        "_id": "ville:7"
+      },
+      {
+        "_id": "ville:1"
+      },
+      {
+        "_id": "ville:22"
+      }
+    ]
+  },
+  {
+    "_id": "ville:13",
+    "nom": "Bogotá",
+    "population": 8702000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:22"
+      },
+      {
+        "_id": "ville:24"
+      },
+      {
+        "_id": "ville:14"
+      },
+      {
+        "_id": "ville:19"
+      },
+      {
+        "_id": "ville:21"
+      }
+    ]
+  },
+  {
+    "_id": "ville:14",
+    "nom": "Buenos Aires",
+    "population": 13639000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {
+        "_id": "ville:24"
+      },
+      {
+        "_id": "ville:13"
+      }
+    ]
+  },
+  {
+    "_id": "ville:15",
+    "nom": "Johannesburg",
+    "population": 3888000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:17"},
+      {"_id": "ville:16"}
+    ]
+  },
+  {
+    "_id": "ville:16",
+    "nom": "Khartoum",
+    "population": 4887000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:15"},
+      {"_id": "ville:17"},
+      {"_id": "ville:18"},
+      {"_id": "ville:32"}
+    ]
+  },
+  {
+    "_id": "ville:17",
+    "nom": "Kinshasa",
+    "population": 9046000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:18"},
+      {"_id": "ville:15"},
+      {"_id": "ville:16"}
+    ]
+  },
+  {
+    "_id": "ville:18",
+    "nom": "Lagos",
+    "population": 11547000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:24"},
+      {"_id": "ville:16"},
+      {"_id": "ville:17"}
+    ]
+  },
+  {
+    "_id": "ville:19",
+    "nom": "Lima",
+    "population": 9121000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:23"},
+      {"_id": "ville:13"},
+      {"_id": "ville:21"}
+    ]
+  },
+  {
+    "_id": "ville:20",
+    "nom": "Los Angeles",
+    "population": 14900000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:10"},
+      {"_id": "ville:21"},
+      {"_id": "ville:2"},
+      {"_id": "ville:46"}
+    ]
+  },
+  {
+    "_id": "ville:21",
+    "nom": "Mexico",
+    "population": 19463000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:20"},
+      {"_id": "ville:2"},
+      {"_id": "ville:22"},
+      {"_id": "ville:13"},
+      {"_id": "ville:19"}
+    ]
+  },
+  {
+    "_id": "ville:22",
+    "nom": "Miami",
+    "population": 5582000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:12"},
+      {"_id": "ville:1"},
+      {"_id": "ville:21"},
+      {"_id": "ville:13"}
+    ]
+  },
+  {
+    "_id": "ville:23",
+    "nom": "Santiago",
+    "population": 6015000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:19"}
+    ]
+  },
+  {
+    "_id": "ville:24",
+    "nom": "São Paulo",
+    "population": 20186000,
+    "maladieParDefaut": {
+      "_id": "maladie:2"
+    },
+    "villesAlentours": [
+      {"_id": "ville:14"},
+      {"_id": "ville:13"},
+      {"_id": "ville:5"},
+      {"_id": "ville:18"}
+    ]
+  },
+  {
+    "_id": "ville:25",
+    "nom": "Alger",
+    "population": 2946000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:5"},
+      {"_id": "ville:8"},
+      {"_id": "ville:30"},
+      {"_id": "ville:32"}
+    ]
+  },
+  {
+    "_id": "ville:26",
+    "nom": "Bagdad",
+    "population": 6204000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:30"},
+      {"_id": "ville:32"},
+      {"_id": "ville:31"},
+      {"_id": "ville:35"},
+      {"_id": "ville:36"}
+    ]
+  },
+  {
+    "_id": "ville:27",
+    "nom": "Calcutta",
+    "population": 14374000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:29"},
+      {"_id": "ville:28"},
+      {"_id": "ville:37"},
+      {"_id": "ville:39"}
+    ]
+  },
+  {
+    "_id": "ville:28",
+    "nom": "Chennai",
+    "population": 8865000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:27"},
+      {"_id": "ville:37"},
+      {"_id": "ville:40"},
+      {"_id": "ville:34"},
+      {"_id": "ville:29"}
+    ]
+  },
+  {
+    "_id": "ville:29",
+    "nom": "Delhi",
+    "population": 22242000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:36"},
+      {"_id": "ville:31"},
+      {"_id": "ville:34"},
+      {"_id": "ville:28"},
+      {"_id": "ville:27"}
+    ]
+  },
+  {
+    "_id": "ville:30",
+    "nom": "Istanbul",
+    "population": 13576000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      { "_id": "ville:6"},
+      {"_id": "ville:9"},
+      {"_id": "ville:25"},
+      {"_id": "ville:33"},
+      {"_id": "ville:26"},
+      {"_id": "ville:32"}
+    ]
+  },
+  {
+    "_id": "ville:31",
+    "nom": "Karachi",
+    "population": 20711000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:26"},
+      {"_id": "ville:36"},
+      {"_id": "ville:35"},
+      {"_id": "ville:29"},
+      {"_id": "ville:34"}
+    ]
+  },
+  {
+    "_id": "ville:32",
+    "nom": "Le Caire",
+    "population": 14718000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:16"},
+      {"_id": "ville:25"},
+      {"_id": "ville:30"},
+      {"_id": "ville:26"},
+      {"_id": "ville:35"}
+    ]
+  },
+  { "_id": "ville:33",
+    "nom": "Moscou",
+    "population": 15512000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:9"},
+      {"_id": "ville:36"},
+      {"_id": "ville:30"}
+    ]
+  },
+  {
+    "_id": "ville:34",
+    "nom": "Mumbai",
+    "population": 16910000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:31"},
+      {"_id": "ville:29"},
+      {"_id": "ville:28"}
+    ]
+  },
+  { "_id": "ville:35",
+    "nom": "Riyad",
+    "population": 5037000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:32"},
+      {"_id": "ville:26"},
+      {"_id": "ville:31"}
+    ]
+  },
+  { "_id": "ville:36",
+    "nom": "Téhéran",
+    "population": 7419000,
+    "maladieParDefaut": {
+      "_id": "maladie:4"
+    },
+    "villesAlentours": [
+      {"_id": "ville:33"},
+      {"_id": "ville:26"},
+      {"_id": "ville:31"},
+      {"_id": "ville:29"}
+    ]
+  },
+  {
+    "_id": "ville:37",
+    "nom": "Bangkok",
+    "population": 7151000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:27"},
+      {"_id": "ville:28"},
+      {"_id": "ville:40"},
+      {"_id": "ville:39"},
+      {"_id": "ville:38"}
+    ]
+  },
+  {
+    "_id": "ville:38",
+    "nom": "Hô-Chi-Minh-Ville",
+    "population": 8314000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:40"},
+      {"_id": "ville:37"},
+      {"_id": "ville:39"},
+      {"_id": "ville:41"}
+    ]
+  },
+  {
+    "_id": "ville:39",
+    "nom": "Hong-Kong",
+    "population": 7106000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:45"},
+      {"_id": "ville:47"},
+      {"_id": "ville:38"},
+      {"_id": "ville:37"},
+      {"_id": "ville:27"},
+      {"_id": "ville:41"}
+    ]
+  },
+  {
+    "_id": "ville:40",
+    "nom": "Jakarta",
+    "population": 26063000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:28"},
+      {"_id": "ville:45"},
+      {"_id": "ville:38"},
+      {"_id": "ville:37"}
+    ]
+  },
+  {
+    "_id": "ville:41",
+    "nom": "Manille",
+    "population": 20767000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:46"},
+      {"_id": "ville:38"},
+      {"_id": "ville:39"},
+      {"_id": "ville:47"},
+      {"_id": "ville:10"}
+    ]
+  },
+  {
+    "_id": "ville:42",
+    "nom": "Osaka",
+    "population": 2871000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:48"},
+      {"_id": "ville:47"}
+    ]
+  },
+  {
+    "_id": "ville:43",
+    "nom": "Pékin",
+    "population": 17311000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:44"},
+      {"_id": "ville:45"}
+    ]
+  },
+  {
+    "_id": "ville:44",
+    "nom": "Séoul",
+    "population": 22547000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:48"},
+      {"_id": "ville:43"},
+      {"_id": "ville:45"}
+    ]
+  },
+  {
+    "_id": "ville:45",
+    "nom": "Shanghai",
+    "population": 13482000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:43"},
+      {"_id": "ville:44"},
+      {"_id": "ville:48"},
+      {"_id": "ville:47"},
+      {"_id": "ville:39"}
+    ]
+  },
+  {
+    "_id": "ville:46",
+    "nom": "Sydney",
+    "population": 3785000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:41"},
+      {"_id": "ville:40"},
+      {"_id": "ville:20"}
+    ]
+  },
+  {
+    "_id": "ville:47",
+    "nom": "Taipei",
+    "population": 8338000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:41"},
+      {"_id": "ville:39"},
+      {"_id": "ville:45"},
+      {"_id": "ville:42"}
+    ]
+  },
+  {
+    "_id": "ville:48",
+    "nom": "Tokyo",
+    "population": 13139000,
+    "maladieParDefaut": {
+      "_id": "maladie:3"
+    },
+    "villesAlentours": [
+      {"_id": "ville:44"},
+      {"_id": "ville:45"},
+      {"_id": "ville:42"},
+      {"_id": "ville:10"}
+    ]
+  }
+]

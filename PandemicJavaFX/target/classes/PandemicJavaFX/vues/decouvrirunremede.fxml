@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="mainVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PandemicJavaFX.vues.VueDecouvrirUnRemede">
+   <children>
+      <Label prefHeight="60.0" prefWidth="600.0" text="Action: Découvrir un remède">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea prefHeight="101.0" prefWidth="600.0" text="Cette action permet de découvrir un rémède sur n'importe quelle station&#10;de recherche à partir du moment ou le joueur fournit 5 cartes villes &#10;de la meme couleur. Si le joueur a le role de médecin, il n'aura alors &#10;qu'à fournir 4 cartes.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <ToolBar prefHeight="21.0" prefWidth="600.0">
+         <items>
+            <ComboBox prefHeight="26.0" prefWidth="103.0" promptText="Choix 1" />
+            <ComboBox prefHeight="26.0" prefWidth="82.0" promptText="Choix 2" />
+            <ComboBox prefHeight="26.0" prefWidth="84.0" promptText="Choix 3" />
+            <ComboBox prefHeight="26.0" prefWidth="95.0" promptText="Choix 4" />
+            <ComboBox prefHeight="26.0" prefWidth="111.0" promptText="Choix 5" />
+         </items>
+      </ToolBar>
+      <Region prefHeight="208.0" prefWidth="600.0" />
+      <ToolBar prefHeight="104.0" prefWidth="600.0">
+        <items>
+          <Button mnemonicParsing="false" text="Confirmer l'action" />
+            <Region prefHeight="47.0" prefWidth="398.0" />
+            <Button mnemonicParsing="false" text="Retour" />
+        </items>
+      </ToolBar>
+   </children>
+</VBox>

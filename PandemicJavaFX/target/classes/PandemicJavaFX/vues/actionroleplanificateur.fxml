@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox fx:id="mainVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PandemicJavaFX.vues.VueActionRolePlanificateur">
+   <children>
+      <Label prefHeight="60.0" prefWidth="598.0" text="Action Rôle : Planificateur d'urgences">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea prefHeight="69.0" prefWidth="600.0" text="Cette action permet au planificateur d'urgences de piocher une carte évènement &#10;de la défausse et de l'entreposer pour la jouer plus tard&#10;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+         <items>
+            <ComboBox prefHeight="26.0" prefWidth="264.0" promptText="Choisir une carte évènement à défausser" />
+            <Region prefHeight="30.0" prefWidth="246.0" />
+            <Button mnemonicParsing="false" text="Retour" />
+         </items>
+      </ToolBar>
+   </children>
+</VBox>

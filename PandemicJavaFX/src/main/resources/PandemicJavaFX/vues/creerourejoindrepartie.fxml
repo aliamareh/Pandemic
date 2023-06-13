@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox fx:id="mainVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="228.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PandemicJavaFX.vues.VueCreerOuRejoindrePartie">
+    <children>
+        <Label prefHeight="60.0" prefWidth="600.0" text="Créer ou rejoindre une partie">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Region prefHeight="30.0" prefWidth="600.0" />
+        <Label prefHeight="60.0" prefWidth="600.0" text="Créer une partie en spécifiant le nombre de participants">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nombreDeJoueursDeLaPartie" prefHeight="30.0" prefWidth="600.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button mnemonicParsing="false" onAction="#creerPartie" text="Créer la partie" />
+        <Region prefHeight="30.0" prefWidth="600.0" />
+        <Label fx:id="erreurCreerPartie" prefHeight="17.0" prefWidth="616.0" textFill="#eb1212" />
+        <Label text="Rejoindre une partie, pour cela donner l'identifiant de la partie">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="idPartieARejoindre" prefHeight="30.0" prefWidth="600.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label fx:id="erreurRejoindrePartie" prefHeight="17.0" prefWidth="607.0" textFill="#eb1212" />
+        <ToolBar prefHeight="40.0" prefWidth="200.0">
+            <items>
+                <Button mnemonicParsing="false" onAction="#rejoindrePartie" text="Rejoindre la partie" />
+                <Region prefHeight="30.0" prefWidth="350.0" />
+                <Button mnemonicParsing="false" onAction="#goToDeconnexion" text="Déconnexion" />
+            </items>
+        </ToolBar>
+    </children>
+</VBox>

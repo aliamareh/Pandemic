@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  
+  # Database - Mongo DB
+  pandemic:
+    image: mongo:6.0.3
+    restart: unless-stopped
+    container_name: pandemicdb
+    ports:
+      - 27017:27017
+  
+  # Une commande par import
+  seed:
+    image: mongo:6.0.3
+    container_name: pandemic_seed
+    command: bash -c "
+        mongoimport --host pandemicdb --db pandemic --collection maladies --type json --file /data/maladies.json --jsonArray 
+        && mongoimport --host pandemicdb --db pandemic --collection villes --type json --file /data/villes.json --jsonArray
+      "
+    volumes:
+      - ./data:/data
+    depends_on:
+      - pandemic
